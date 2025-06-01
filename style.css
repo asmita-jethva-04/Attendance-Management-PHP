@@ -1,0 +1,217 @@
+body {
+    background-color: #D29F72;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body takes full height */
+}
+.login .card{
+    background-color:#580606;
+    margin:0 auto;
+    color:white;
+    border:1px solid #580606;
+    border-radius:5%;
+    margin-top:8%;
+}
+.login .card h1{
+    font-size:50px;
+    margin:10% 0%;
+}
+.login .card input{
+    margin-bottom:5% !important;
+    width:70%;   
+    margin:auto ;        
+}
+.login .card input::placeholder{
+    color:#580606;
+}
+.login .card button{
+    color:#580606;
+    padding:1% 5%;
+    margin-bottom:15%;
+}
+.sidebar img {
+    border: 1px solid #580606;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+.sidebar {
+    background-color: #580606;
+    height: 100vh;
+    position: fixed;
+    width: 250px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    color: white;
+}
+.sidebar .nav {
+    flex-direction: column;
+    padding: 20px 0;
+}
+.info {
+    padding: 5px;
+    border-bottom: 5px solid #ffffff;
+}
+.nav-item {
+    padding: 5px;
+    border-bottom: 5px solid #ffffff;
+    font-size: 20px;
+}
+.nav-item a i {
+    padding-right: 20px;
+    color: white;
+} 
+.nav-item a span {
+    color: white;
+} 
+.main-panel {
+    margin-left: 250px; /* Make space for the sidebar */
+    padding: 20px; /* Add padding for the content */
+    flex: 1; /* Allow the main panel to grow */
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #580606;
+    padding: 15px;
+    color: white;
+}
+.header a{
+    text-decoration: none;
+    color:#580606;
+}
+.header i {
+    font-size:30px;
+    margin-top:4px;
+}
+.header button{
+    color:#580606;
+}
+.footer {
+    background-color: #580606;
+    color: white;
+    padding: 10px;
+}
+.card {
+    border-radius: 8px; /* Add rounded corners to cards */
+    background-color: #580606;
+    color: white;
+    font-size:30px;
+}
+.form button a{
+    text-decoration: none;
+    color:#580606;
+}
+.form button{
+    color:#580606;
+}
+.form input::placeholder{
+    color:#580606;
+}
+.form input{
+    margin: auto;
+    width:95%;
+}
+.form select{
+    margin:auto;
+    width:95%;
+}
+.time .table th,td{
+    color:#580606;
+}
+.time .table img{
+    height:35%;
+    width:35%;
+}
+.time button a{
+    text-decoration: none;
+    color:#580606;
+}
+.time button{
+    color:#580606;
+}
+.time .modelsub{
+    background-color:#580606;
+    color:white;
+}
+.task form input::placeholder{
+    color:#580606;
+}
+.task button a{
+    text-decoration: none;
+    color:#580606;
+}
+.task button{
+    color:#580606;
+}
+.task .table th{
+    color:#580606;
+}
+.task .table td{
+    color:#580606;
+}
+.task .table img{
+    height:35%;
+    width:35%;
+}
+.task  a{
+    text-decoration:none;
+    color:#580606;
+}
+.task .modelsub{
+    background-color: #580606;
+    color:white;
+}
+.mail button a{
+    text-decoration: none;
+    color:#580606;
+}
+.mail button{
+    color: #580606;
+}
+label.error {
+    color: red;
+    font-size: 14px; /* Optional: You can adjust the size */
+}
+
+input.error, textarea.error, select.error {
+    border-color: red; /* Optional: Highlights the invalid input fields with red borders */
+}
+
+
+
+
+@media (max-width:576px){
+    .card{
+        margin-top:10%;
+        width:100%;
+    }
+    .card h1{
+        font-size:40px;
+    }
+    /* .sidebar a {
+        text-align: center;
+        float: none;
+      } */
+}
+@media (min-width:576px) and (max-width:767px){
+    .card{
+        margin-top:10%;
+        width:100%;
+    }
+    /* .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+      .sidebar a {float: left;}
+      div.content {margin-left: 0;} */
+    
+}
+@media (min-width:767px) and (max-width:992px){
+    .card{
+        margin-top:10%;
+        width:100%;
+    }
+}
